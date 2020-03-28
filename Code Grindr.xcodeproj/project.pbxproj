@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132D148C714F846A081BAEBE /* Pods_Code_Grindr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA780F838A89EC739757A8F /* Pods_Code_Grindr.framework */; };
+		4845224F24293FF90069D67E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845224E24293FF90069D67E /* SignUpViewController.swift */; };
+		48452251242942D30069D67E /* SignUpUIsetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48452250242942D30069D67E /* SignUpUIsetup.swift */; };
+		4845225324294DC30069D67E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845225224294DC30069D67E /* ForgotPasswordViewController.swift */; };
+		484522572429729C0069D67E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 484522562429729C0069D67E /* GoogleService-Info.plist */; };
+		4845225C242A64F90069D67E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845225B242A64F90069D67E /* Constants.swift */; };
+		4845225E242A67E30069D67E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845225D242A67E30069D67E /* HomeViewController.swift */; };
 		48AB6D092423F3DB00EBE5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D082423F3DB00EBE5F7 /* AppDelegate.swift */; };
 		48AB6D0B2423F3DB00EBE5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D0A2423F3DB00EBE5F7 /* SceneDelegate.swift */; };
 		48AB6D0D2423F3DB00EBE5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D0C2423F3DB00EBE5F7 /* ViewController.swift */; };
 		48AB6D102423F3DB00EBE5F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AB6D0E2423F3DB00EBE5F7 /* Main.storyboard */; };
 		48AB6D122423F3DD00EBE5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AB6D112423F3DD00EBE5F7 /* Assets.xcassets */; };
 		48AB6D152423F3DD00EBE5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AB6D132423F3DD00EBE5F7 /* LaunchScreen.storyboard */; };
+		48AB6D2324241D8F00EBE5F7 /* Uisetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D2224241D8F00EBE5F7 /* Uisetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19A5FC24457FC0A11F7A633C /* Pods-Code Grindr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Grindr.debug.xcconfig"; path = "Target Support Files/Pods-Code Grindr/Pods-Code Grindr.debug.xcconfig"; sourceTree = "<group>"; };
+		4845224E24293FF90069D67E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		48452250242942D30069D67E /* SignUpUIsetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUIsetup.swift; sourceTree = "<group>"; };
+		4845225224294DC30069D67E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		484522562429729C0069D67E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4845225B242A64F90069D67E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4845225D242A67E30069D67E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48AB6D052423F3DB00EBE5F7 /* Code Grindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Grindr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AB6D082423F3DB00EBE5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48AB6D0A2423F3DB00EBE5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		48AB6D112423F3DD00EBE5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48AB6D142423F3DD00EBE5F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48AB6D162423F3DD00EBE5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AB6D2224241D8F00EBE5F7 /* Uisetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uisetup.swift; sourceTree = "<group>"; };
+		4D391C238CF2987AD4E85CA1 /* Pods-Code Grindr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Grindr.release.xcconfig"; path = "Target Support Files/Pods-Code Grindr/Pods-Code Grindr.release.xcconfig"; sourceTree = "<group>"; };
+		5AA780F838A89EC739757A8F /* Pods_Code_Grindr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Code_Grindr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132D148C714F846A081BAEBE /* Pods_Code_Grindr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41EB4D5945316320CB5CD981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA780F838A89EC739757A8F /* Pods_Code_Grindr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48452258242A64650069D67E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4845225B242A64F90069D67E /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		48AB6CFC2423F3DB00EBE5F7 = {
 			isa = PBXGroup;
 			children = (
 				48AB6D072423F3DB00EBE5F7 /* Code Grindr */,
 				48AB6D062423F3DB00EBE5F7 /* Products */,
+				5C503E9E4B7FD10332C4E1CB /* Pods */,
+				41EB4D5945316320CB5CD981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,29 @@
 			children = (
 				48AB6D082423F3DB00EBE5F7 /* AppDelegate.swift */,
 				48AB6D0A2423F3DB00EBE5F7 /* SceneDelegate.swift */,
+				48452258242A64650069D67E /* Helpers */,
+				48AB6D2224241D8F00EBE5F7 /* Uisetup.swift */,
+				48452250242942D30069D67E /* SignUpUIsetup.swift */,
 				48AB6D0C2423F3DB00EBE5F7 /* ViewController.swift */,
+				4845225D242A67E30069D67E /* HomeViewController.swift */,
+				4845224E24293FF90069D67E /* SignUpViewController.swift */,
+				4845225224294DC30069D67E /* ForgotPasswordViewController.swift */,
 				48AB6D0E2423F3DB00EBE5F7 /* Main.storyboard */,
 				48AB6D112423F3DD00EBE5F7 /* Assets.xcassets */,
 				48AB6D132423F3DD00EBE5F7 /* LaunchScreen.storyboard */,
+				484522562429729C0069D67E /* GoogleService-Info.plist */,
 				48AB6D162423F3DD00EBE5F7 /* Info.plist */,
 			);
 			path = "Code Grindr";
+			sourceTree = "<group>";
+		};
+		5C503E9E4B7FD10332C4E1CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A5FC24457FC0A11F7A633C /* Pods-Code Grindr.debug.xcconfig */,
+				4D391C238CF2987AD4E85CA1 /* Pods-Code Grindr.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48AB6D192423F3DD00EBE5F7 /* Build configuration list for PBXNativeTarget "Code Grindr" */;
 			buildPhases = (
+				AB3ED997A8AF34D2EEB6AE7D /* [CP] Check Pods Manifest.lock */,
 				48AB6D012423F3DB00EBE5F7 /* Sources */,
 				48AB6D022423F3DB00EBE5F7 /* Frameworks */,
 				48AB6D032423F3DB00EBE5F7 /* Resources */,
+				36C4F4104E662044FD0F06D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AB6D152423F3DD00EBE5F7 /* LaunchScreen.storyboard in Resources */,
+				484522572429729C0069D67E /* GoogleService-Info.plist in Resources */,
 				48AB6D122423F3DD00EBE5F7 /* Assets.xcassets in Resources */,
 				48AB6D102423F3DB00EBE5F7 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +189,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36C4F4104E662044FD0F06D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Code Grindr/Pods-Code Grindr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Code Grindr/Pods-Code Grindr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Code Grindr/Pods-Code Grindr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3ED997A8AF34D2EEB6AE7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Code Grindr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48AB6D012423F3DB00EBE5F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48AB6D0D2423F3DB00EBE5F7 /* ViewController.swift in Sources */,
+				4845225324294DC30069D67E /* ForgotPasswordViewController.swift in Sources */,
 				48AB6D092423F3DB00EBE5F7 /* AppDelegate.swift in Sources */,
 				48AB6D0B2423F3DB00EBE5F7 /* SceneDelegate.swift in Sources */,
+				48452251242942D30069D67E /* SignUpUIsetup.swift in Sources */,
+				4845225E242A67E30069D67E /* HomeViewController.swift in Sources */,
+				48AB6D2324241D8F00EBE5F7 /* Uisetup.swift in Sources */,
+				4845224F24293FF90069D67E /* SignUpViewController.swift in Sources */,
+				4845225C242A64F90069D67E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		48AB6D1A2423F3DD00EBE5F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A5FC24457FC0A11F7A633C /* Pods-Code Grindr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +405,7 @@
 		};
 		48AB6D1B2423F3DD00EBE5F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D391C238CF2987AD4E85CA1 /* Pods-Code Grindr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

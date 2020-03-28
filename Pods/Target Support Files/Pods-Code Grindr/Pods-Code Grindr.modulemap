@@ -1,0 +1,6 @@
+framework module Pods_Code_Grindr {
+  umbrella header "Pods-Code Grindr-umbrella.h"
+
+  export *
+  module * { export * }
+}
