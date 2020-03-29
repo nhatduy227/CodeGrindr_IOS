@@ -34,7 +34,28 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         setuppasswordTextField()
         setupretypePasswordTextField()
         setupNextButton()
+        
+        // Create for keyboard notifications
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
     }
+    // Disregard the notifications
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+    }
+    // Receive keyboard notifications
+    @objc func keyboardWillChange(notification: Notification) {
+        if (notification.name == UIResponder.keyboardWillShowNotification || notification.name == UIResponder.keyboardWillChangeFrameNotification) {
+            view.frame.origin.y = -50
+        }
+        else {
+            view.frame.origin.y = 0
+        }
+    }
+    // Hide Keyboard once Return is hit
     func textFieldShouldReturn (_ textField: UITextField) -> Bool {
         firstnameTextField.resignFirstResponder()
         lastnameTextField.resignFirstResponder()
