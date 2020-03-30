@@ -14,6 +14,7 @@
 		484522572429729C0069D67E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 484522562429729C0069D67E /* GoogleService-Info.plist */; };
 		4845225C242A64F90069D67E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845225B242A64F90069D67E /* Constants.swift */; };
 		4845225E242A67E30069D67E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4845225D242A67E30069D67E /* HomeViewController.swift */; };
+		48452263243027B50069D67E /* HomeUISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48452262243027B50069D67E /* HomeUISetup.swift */; };
 		48AB6D092423F3DB00EBE5F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D082423F3DB00EBE5F7 /* AppDelegate.swift */; };
 		48AB6D0B2423F3DB00EBE5F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D0A2423F3DB00EBE5F7 /* SceneDelegate.swift */; };
 		48AB6D0D2423F3DB00EBE5F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AB6D0C2423F3DB00EBE5F7 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 		484522562429729C0069D67E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4845225B242A64F90069D67E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4845225D242A67E30069D67E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48452262243027B50069D67E /* HomeUISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUISetup.swift; sourceTree = "<group>"; };
 		48AB6D052423F3DB00EBE5F7 /* Code Grindr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Grindr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AB6D082423F3DB00EBE5F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48AB6D0A2423F3DB00EBE5F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				48452250242942D30069D67E /* SignUpUIsetup.swift */,
 				48AB6D0C2423F3DB00EBE5F7 /* ViewController.swift */,
 				4845225D242A67E30069D67E /* HomeViewController.swift */,
+				48452262243027B50069D67E /* HomeUISetup.swift */,
 				4845224E24293FF90069D67E /* SignUpViewController.swift */,
 				4845225224294DC30069D67E /* ForgotPasswordViewController.swift */,
 				48AB6D0E2423F3DB00EBE5F7 /* Main.storyboard */,
@@ -240,6 +243,7 @@
 				4845225324294DC30069D67E /* ForgotPasswordViewController.swift in Sources */,
 				48AB6D092423F3DB00EBE5F7 /* AppDelegate.swift in Sources */,
 				48AB6D0B2423F3DB00EBE5F7 /* SceneDelegate.swift in Sources */,
+				48452263243027B50069D67E /* HomeUISetup.swift in Sources */,
 				48452251242942D30069D67E /* SignUpUIsetup.swift in Sources */,
 				4845225E242A67E30069D67E /* HomeViewController.swift in Sources */,
 				48AB6D2324241D8F00EBE5F7 /* Uisetup.swift in Sources */,
