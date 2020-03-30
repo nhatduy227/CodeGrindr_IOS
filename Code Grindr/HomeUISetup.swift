@@ -9,8 +9,11 @@
 import UIKit
 
 extension HomeViewController {
+    func setupBackgroundView() {
+        backgroundView.backgroundColor = UIColor.init(red: 181/255, green: 163/255, blue: 238/255, alpha: 100)
+    }
     func setupAvatarImageView() {
-        self.avatarImageView.cropAsCircleWithBorder(borderColor: UIColor.init(red: 181/255, green: 163/255, blue: 238/255, alpha: 100), strokeWidth: 3)
+        self.avatarImageView.cropAsCircleWithBorder(borderColor: UIColor.white, strokeWidth: 3)
         avatarImageView.isUserInteractionEnabled = true
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(presentPicker))
         avatarImageView.addGestureRecognizer(tapGesture)
